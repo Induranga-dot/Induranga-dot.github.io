@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tharusha Induranga | Developer</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background:#0a0a0a; color:#fff; line-height:1.6; }
+        .container { max-width:900px; margin:auto; padding: 40px 20px; }
+        header { text-align:center; padding: 80px 0; }
+        header h1 { font-size: 3.5rem; background: linear-gradient(90deg, #00ff88, #00bfff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        header p { color:#888; font-size:1.2rem; margin-top:10px; }
+        .btn { display:inline-block; margin-top:25px; padding:12px 30px; background:#fff; color:#000; border-radius:30px; text-decoration:none; font-weight:bold; transition:0.3s; }
+        .btn:hover { transform:scale(1.05); }
+        .section { margin-top:60px; }
+        .section h2 { font-size:2rem; margin-bottom:20px; border-left:4px solid #00ff88; padding-left:15px; }
+        .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:20px; }
+        .card { background:#161616; padding:25px; border-radius:15px; border:1px solid #222; transition:0.3s; }
+        .card:hover { border-color:#00ff88; transform:translateY(-5px); }
+        .card h3 { color:#00ff88; }
+        .skills span { display:inline-block; background:#1a1a1a; border:1px solid #333; padding:8px 15px; border-radius:20px; margin:5px; font-size:0.9rem; }
+        footer { text-align:center; margin-top:80px; color:#555; padding-bottom:30px; }
+        a { color:#00ff88; text-decoration:none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tharusha Induranga</h1>
+            <p>CS50 Student | Aspiring Software Engineer | Problem Solver</p>
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="https://github.com/Induranga-dot" class="btn" style="background:transparent; color:#fff; border:1px solid #fff; margin-left:10px;">GitHub</a>
+        </header>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p style="color:#aaa;">Hi! I'm Tharusha from Kotte, Sri Lanka. I'm learning Computer Science with Harvard's CS50. I love building things with C, Python, and Web Technologies. Currently focused on finishing CS50 and building cool projects.</p>
+        </div>
+
+        <div class="section" id="projects">
+            <h2>Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>🔤 Scrabble - C</h3>
+                    <p style="color:#aaa; margin:10px 0;">CS50 Pset2 solution. Calculates word scores with arrays & ASCII logic. Check50: 13/13</p>
+                    <a href="https://github.com/Induranga-dot">View Code →</a>
+                </div>
+                <div class="card">
+                    <h3>📖 Readability - C</h3>
+                    <p style="color:#aaa; margin:10px 0;">Computes Coleman-Liau index to find reading grade level.</p>
+                    <a href="https://github.com/Induranga-dot">View Code →</a>
+                </div>
+                <div class="card">
+                    <h3>🌐 Portfolio</h3>
+                    <p style="color:#aaa; margin:10px 0;">This responsive site. Built with pure HTML & CSS.</p>
+                    <a href="#">Live Demo →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>C</span><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Git</span><span>CS50</span>
+            </div>
+        </div>
+
+        <footer>
+            <p>Built with ❤️ | Tharusha Induranga | Kotte, Sri Lanka | 2026</p>
+            <p>Contact: <a href="mailto:indurangatharusha223@gmail.com">indurangatharusha223@gmail.com</a> | <a href="https://github.com/Induranga-dot">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
